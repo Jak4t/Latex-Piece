@@ -15,6 +15,8 @@ if game.PlaceId == 12860567360 then
         
         local Function_4 = Menu_1:Section("Shop")
         
+        local Function_5 = Menu_1:Section ("Stats") 
+        
         local Menu_2 = Window:Tab("Setting / Credit")
         local Credit = Menu_2:Section("Gui")
         
@@ -103,6 +105,10 @@ if game.PlaceId == 12860567360 then
                 Monster = "Leaf Man"
             elseif Levels == 100 or Levels <= 301 then
                 Monster = "Snow People"
+            elseif Levels == 302 or Levels <= 401 then
+                Monster = "Sky Bandit"
+            elseif Levels == 402 or Levels <= 601 then
+                Monster = "Sky Js"
             end
         end
         
@@ -368,6 +374,8 @@ if game.PlaceId == 12860567360 then
         
         local Function_4 = Menu_1:Section("Shop")
         
+        local Function_5 = Menu_1:Section ("Stats") 
+        
         local Menu_2 = Window:Tab("Setting / Credit")
         local Credit = Menu_2:Section("Gui")
         
@@ -456,9 +464,9 @@ if game.PlaceId == 12860567360 then
                 Monster = "Leaf Man"
             elseif Levels == 100 or Levels <= 301 then
                 Monster = "Snow People"
-            elseif Levels == 300 or Levels <= 400 then
+            elseif Levels == 302 or Levels <= 401 then
                 Monster = "Sky Bandit"
-            elseif Levels == 400 or Levels <= 600 then
+            elseif Levels == 402 or Levels <= 601 then
                 Monster = "Sky Js"
             end
         end
