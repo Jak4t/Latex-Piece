@@ -4,7 +4,7 @@ if game.PlaceId == 12860567360 then
         
         local Gui_Hub = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/nightmares.fun-UI-Library/main/source.lua"))()
         
-        local Window = Gui_Hub.Create("Tao Hu")
+        local Window = Gui_Hub.Create("Latex Piece🤭")
         
         local Menu_1 = Window:Tab("Main")
         local Function_1 = Menu_1:Section("Auto Fram")
@@ -105,9 +105,9 @@ if game.PlaceId == 12860567360 then
                 Monster = "Leaf Man"
             elseif Levels == 100 or Levels <= 301 then
                 Monster = "Snow People"
-            elseif Levels == 400 or Levels <= 499 then
+            elseif Levels == 302 or Levels <= 401 then
                 Monster = "Sky Bandit"
-            elseif Levels == 500 or Levels <= 601 then
+            elseif Levels == 402 or Levels <= 601 then
                 Monster = "Sky Js"
             end
         end
@@ -464,9 +464,9 @@ if game.PlaceId == 12860567360 then
                 Monster = "Leaf Man"
             elseif Levels == 100 or Levels <= 301 then
                 Monster = "Snow People"
-            elseif Levels == 400 or Levels <= 499 then
+            elseif Levels == 302 or Levels <= 401 then
                 Monster = "Sky Bandit"
-            elseif Levels == 500 or Levels <= 601 then
+            elseif Levels == 402 or Levels <= 601 then
                 Monster = "Sky Js"
             end
         end
