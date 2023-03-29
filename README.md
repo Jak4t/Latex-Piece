@@ -4,7 +4,7 @@ if game.PlaceId == 12860567360 then
         
         local Gui_Hub = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/nightmares.fun-UI-Library/main/source.lua"))()
         
-        local Window = Gui_Hub.Create("Latex Piece🤭")
+        local Window = Gui_Hub.Create("Git HUB ")
         
         local Menu_1 = Window:Tab("Main")
         local Function_1 = Menu_1:Section("Auto Fram")
