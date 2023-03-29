@@ -105,9 +105,9 @@ if game.PlaceId == 12860567360 then
                 Monster = "Leaf Man"
             elseif Levels == 100 or Levels <= 301 then
                 Monster = "Snow People"
-            elseif Levels == 302 or Levels <= 401 then
+            elseif Levels == 400 or Levels <= 499 then
                 Monster = "Sky Bandit"
-            elseif Levels == 402 or Levels <= 601 then
+            elseif Levels == 500 or Levels <= 601 then
                 Monster = "Sky Js"
             end
         end
@@ -464,9 +464,9 @@ if game.PlaceId == 12860567360 then
                 Monster = "Leaf Man"
             elseif Levels == 100 or Levels <= 301 then
                 Monster = "Snow People"
-            elseif Levels == 302 or Levels <= 401 then
+            elseif Levels == 400 or Levels <= 499 then
                 Monster = "Sky Bandit"
-            elseif Levels == 402 or Levels <= 601 then
+            elseif Levels == 500 or Levels <= 601 then
                 Monster = "Sky Js"
             end
         end
