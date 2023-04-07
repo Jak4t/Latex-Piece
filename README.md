@@ -112,7 +112,7 @@ if game.PlaceId == 12860567360 then
             elseif Levels == 602 or Levels <= 701 then
                 Monster = "Hole"
             elseif Levels == 802 or Levels <= 901 then
-                Monster = Treeหลังอย่าคิดไปไกล
+                Monster = "Treeหลังอย่าคิดไปไกล"
             end
         end
         
