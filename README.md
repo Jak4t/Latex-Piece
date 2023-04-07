@@ -109,6 +109,10 @@ if game.PlaceId == 12860567360 then
                 Monster = "Sky Bandit"
             elseif Levels == 402 or Levels <= 601 then
                 Monster = "Sky Js"
+            elseif Levels == 602 or Levels <= 701 then
+                Monster = "Hole"
+            elseif Levels == 802 or Levels <= 901 then
+                Monster = Treeหลังอย่าคิดไปไกล
             end
         end
         
@@ -164,7 +168,7 @@ if game.PlaceId == 12860567360 then
         Function_1:Label("Auto Fram Select")
         
         
-        Function_1:Dropdown("Auto Fram Select", {"Bad People","Blue People","Tree Man","Leaf Man","Snow People","People love Plar UwU","Tree Boss","Leaf Boss","YeTood","Leaf Noob","Pole Boss","Sky Bandit","Sky Js"}, function(Pick)
+        Function_1:Dropdown("Auto Fram Select", {"Bad People","Blue People","Tree Man","Leaf Man","Snow People","People love Plar UwU","Tree Boss","Leaf Boss","YeTood","Leaf Noob","Pole Boss","Monkey Caramel ZaZa","Lok Lek"}, function(Pick)
             _G.Monster = Pick
         end)
         
@@ -468,6 +472,10 @@ if game.PlaceId == 12860567360 then
                 Monster = "Sky Bandit"
             elseif Levels == 402 or Levels <= 601 then
                 Monster = "Sky Js"
+            elseif Levels == 602 or Levels <= 701 then
+                Monster = "Hole"
+            elseif Levels == 802 or Levels <= 901 then
+                Monster = "Treeหลังอย่าคิดไปไกล"
             end
         end
         
@@ -523,7 +531,7 @@ if game.PlaceId == 12860567360 then
         Function_1:Label("Auto Fram Select")
         
         
-        Function_1:Dropdown("Auto Fram Select", {"Bad People","Blue People","Tree Man","Leaf Man","Snow People","People love Plar UwU","Tree Boss","Leaf Boss","YeTood","Leaf Noob","Pole Boss","Sky bandit","Sky Js"}, function(Pick)
+        Function_1:Dropdown("Auto Fram Select", {"Bad People","Blue People","Tree Man","Leaf Man","Snow People","People love Plar UwU","Tree Boss","Leaf Boss","YeTood","Leaf Noob","Pole Boss","Monkey Caramel ZaZa","Lok Lek"}, function(Pick)
             _G.Monster = Pick
         end)
         
