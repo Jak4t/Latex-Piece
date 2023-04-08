@@ -109,10 +109,8 @@ if game.PlaceId == 12860567360 then
                 Monster = "Sky Bandit"
             elseif Levels == 402 or Levels <= 601 then
                 Monster = "Sky Js"
-            elseif Levels == 602 or Levels <= 701 then
+            elseif Levels == 602 or Levels <= 801 then
                 Monster = "Hole"
-            elseif Levels == 702 or Levels <= 801 then
-                Monster = "Treeหลังอย่าคิดไปไกล"
             end
         end
         
