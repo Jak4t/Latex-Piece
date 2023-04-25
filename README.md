@@ -172,7 +172,7 @@ if game.PlaceId == 12860567360 then
         Function_1:Label("Auto Fram Select")
         
         
-        Function_1:Dropdown("Auto Fram Select", {"Bad People","Blue People","Tree Man","Leaf Man","Snow People","People love Plar UwU","Tree Boss","Leaf Boss","YeTood","Leaf Noob","Sand Stone","Sand Boss"}, function(Pick)
+        Function_1:Dropdown("Auto Fram Select", {"Bad People","Blue People","Tree Man","Leaf Man","Snow People","People love Plar UwU","Tree Boss","Leaf Boss","YeTood","Leaf Noob","Sand Stone","Sand boss","Monkey Caramel ZaZa"Songkran Car"}, function(Pick)
             _G.Monster = Pick
         end)
         
@@ -541,7 +541,7 @@ if game.PlaceId == 12860567360 then
         Function_1:Label("Auto Fram Select")
         
         
-        Function_1:Dropdown("Auto Fram Select", {"Bad People","Blue People","Tree Man","Leaf Man","Snow People","People love Plar UwU","Tree Boss","Leaf Boss","YeTood","Leaf Noob","Sand Stone"," Sand Boss","Monkey Caramel ZaZa"}, function(Pick)
+        Function_1:Dropdown("Auto Fram Select", {"Bad People","Blue People","Tree Man","Leaf Man","Snow People","People love Plar UwU","Tree Boss","Leaf Boss","YeTood","Leaf Noob","Sand Stone"," Sand boss","Monkey Caramel ZaZa","Songkran Car"}, function(Pick)
             _G.Monster = Pick
         end)
         
