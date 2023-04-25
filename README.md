@@ -4,7 +4,7 @@ if game.PlaceId == 12860567360 then
         
         local Gui_Hub = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/nightmares.fun-UI-Library/main/source.lua"))()
         
-        local Window = Gui_Hub.Create("Git HUB ")
+        local Window = Gui_Hub.Create("Tao Hu")
         
         local Menu_1 = Window:Tab("Main")
         local Function_1 = Menu_1:Section("Auto Fram")
@@ -14,8 +14,6 @@ if game.PlaceId == 12860567360 then
         local Function_3 = Menu_1:Section("Teleport")
         
         local Function_4 = Menu_1:Section("Shop")
-        
-        local Function_5 = Menu_1:Section ("Stats") 
         
         local Menu_2 = Window:Tab("Setting / Credit")
         local Credit = Menu_2:Section("Gui")
@@ -105,14 +103,20 @@ if game.PlaceId == 12860567360 then
                 Monster = "Leaf Man"
             elseif Levels == 100 or Levels <= 301 then
                 Monster = "Snow People"
-            elseif Levels == 302 or Levels <= 401 then
-                Monster = "Sky Bandit"
-            elseif Levels == 402 or Levels <= 601 then
-                Monster = "Sky Js"
-            elseif Levels == 602 or Levels <= 701 then
+            elseif Levels == 602 or Levels <= 650 then
                 Monster = "Hole"
-            elseif Levels == 702 or Levels <= 801
-                Monster = "Treeหลังอย่าคิดไปไกล"
+            elseif Levels == 651 or Levels <= 701 then
+                Monster = "Lok Lek"
+            elseif Levels == 702 or Levels <= 801 then
+                Monster = "Treeหลังอย่าคิดไปใกล"
+            elseif Levels == 802 or Levels <= 850 then
+                Monster = "Sand Bandit"
+            elseif Levels == 851 or Levels <= 901 then
+                Monster = "Snag"
+            elseif Levels == 902 or Levels <= 950 then
+                Monster = "Sand Boss"
+            elseif Levels == 951 or Levels <= 1001 then
+                Monster = "Sand Man"  
             end
         end
         
@@ -168,7 +172,7 @@ if game.PlaceId == 12860567360 then
         Function_1:Label("Auto Fram Select")
         
         
-        Function_1:Dropdown("Auto Fram Select", {"Bad People","Blue People","Tree Man","Leaf Man","Snow People","People love Plar UwU","Tree Boss","Leaf Boss","YeTood","Leaf Noob","Pole Boss","MonkeHet","Lok Lek"}, function(Pick)
+        Function_1:Dropdown("Auto Fram Select", {"Bad People","Blue People","Tree Man","Leaf Man","Snow People","People love Plar UwU","Tree Boss","Leaf Boss","YeTood","Leaf Noob","Sand Stone","Sand Boss"}, function(Pick)
             _G.Monster = Pick
         end)
         
@@ -378,8 +382,6 @@ if game.PlaceId == 12860567360 then
         
         local Function_4 = Menu_1:Section("Shop")
         
-        local Function_5 = Menu_1:Section ("Stats") 
-        
         local Menu_2 = Window:Tab("Setting / Credit")
         local Credit = Menu_2:Section("Gui")
         
@@ -472,10 +474,20 @@ if game.PlaceId == 12860567360 then
                 Monster = "Sky Bandit"
             elseif Levels == 402 or Levels <= 601 then
                 Monster = "Sky Js"
-            elseif Levels == 602 or Levels <= 701 then
+            elseif Levels == 602 or Levels <= 650 then
                 Monster = "Hole"
+            elseif Levels == 651 or Levels <= 701 then
+                Monster = "Lok Lek"
             elseif Levels == 702 or Levels <= 801 then
                 Monster = "Treeหลังอย่าคิดไปใกล"
+            elseif Levels == 802 or Levels <= 850 then
+                Monster = "Sand Bandit"
+            elseif Levels == 851 or Levels <= 901 then
+                Monster = "Snag"
+            elseif Levels == 902 or Levels <= 950 then
+                Monster = "Sand Boss"
+            elseif Levels == 951 or Levels <= 1001 then
+                Monster = "Sand Man"
             end
         end
         
@@ -531,7 +543,7 @@ if game.PlaceId == 12860567360 then
         Function_1:Label("Auto Fram Select")
         
         
-        Function_1:Dropdown("Auto Fram Select", {"Bad People","Blue People","Tree Man","Leaf Man","Snow People","People love Plar UwU","Tree Boss","Leaf Boss","YeTood","Leaf Noob","Pole Boss","MonkeyHet","Lok Lek"}, function(Pick)
+        Function_1:Dropdown("Auto Fram Select", {"Bad People","Blue People","Tree Man","Leaf Man","Snow People","People love Plar UwU","Tree Boss","Leaf Boss","YeTood","Leaf Noob","Sand Stone"," Sand Boss"}, function(Pick)
             _G.Monster = Pick
         end)
         
