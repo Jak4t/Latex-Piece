@@ -112,7 +112,7 @@ if game.PlaceId == 12860567360 then
             elseif Levels == 802 or Levels <= 850 then
                 Monster = "Sand Bandit"
             elseif Levels == 851 or Levels <= 901 then
-                Monster = "Snag"
+                Monster = "Sang"
             elseif Levels == 902 or Levels <= 950 then
                 Monster = "Sand Boss"
             elseif Levels == 951 or Levels <= 1001 then
@@ -301,12 +301,12 @@ if game.PlaceId == 12860567360 then
         
         
         Function_3:Button("Starter Island", function()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-17.8772469, 10.4073277, -682.160034, -0.999869347, 6.07082296e-09, -0.0161655191, 6.02664141e-09, 1, 2.78179213e-09, 0.0161655191, 2.6840048e-09, -0.999869347)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13.8904104, 30.8134136, -502.258545, -0.993725479, 8.39387138e-09, 0.111846894, 1.04834541e-08, 1, 1.80944149e-08, -0.111846894, 1.9153422e-08, -0.993725479)
         end)
         
         
         Function_3:Button("Jungle Island", function()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(672.556641, 7.18790483, 625.724304, 0.0156977009, 4.08574596e-09, -0.999876797, 1.18003562e-08, 1, 4.2715107e-09, 0.999876797, -1.18659553e-08, 0.0156977009)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(678.490173, 16.2233353, 618.688477, 0.0754194632, 7.19574516e-08, 0.997151911, -8.88502569e-08, 1, -6.5442805e-08, -0.997151911, -8.36615399e-08, 0.0754194632)
         end)
         
         
@@ -316,7 +316,7 @@ if game.PlaceId == 12860567360 then
         
         
         Function_3:Button("Snow Island", function()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-797.238281, 9.71098328, 235.62413, 0.00243704999, -9.70730483e-08, 0.99999702, -7.09934866e-08, 1, 9.72463496e-08, -0.99999702, -7.12302679e-08, 0.00243704999)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1058.62097, 15.1323872, 477.81131, -0.960836053, -2.26627055e-08, 0.277117431, -3.30093748e-08, 1, -3.26716751e-08, -0.277117431, -4.05395966e-08, -0.960836053)
         end)
         
         
@@ -483,7 +483,7 @@ if game.PlaceId == 12860567360 then
             elseif Levels == 802 or Levels <= 850 then
                 Monster = "Sand Bandit"
             elseif Levels == 851 or Levels <= 901 then
-                Monster = "Snag"
+                Monster = "Sang"
             elseif Levels == 902 or Levels <= 950 then
                 Monster = "Sand Boss"
             elseif Levels == 951 or Levels <= 1001 then
@@ -672,12 +672,12 @@ if game.PlaceId == 12860567360 then
         
         
         Function_3:Button("Starter Island", function()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(20.4405499, 30.8134136, -499.025879, -0.675779164, -9.86224435e-08, 0.737104118, -5.84907909e-08, 1, 8.01726401e-08, -0.737104118, 1.10651959e-08, -0.675779164)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13.8904104, 30.8134136, -502.258545, -0.993725479, 8.39387138e-09, 0.111846894, 1.04834541e-08, 1, 1.80944149e-08, -0.111846894, 1.9153422e-08, -0.993725479)
         end)
         
         
         Function_3:Button("Jungle Island", function()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(672.454041, 16.2276154, 621.443054, 0.6572932, -3.89418204e-08, 0.75363493, -3.59735175e-08, 1, 8.30467997e-08, -0.75363493, -8.16969958e-08, 0.6572932)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(678.490173, 16.2233353, 618.688477, 0.0754194632, 7.19574516e-08, 0.997151911, -8.88502569e-08, 1, -6.5442805e-08, -0.997151911, -8.36615399e-08, 0.0754194632)
         end)
         
         
@@ -687,7 +687,7 @@ if game.PlaceId == 12860567360 then
         
         
         Function_3:Button("Snow Island", function()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-797.238281, 9.71098328, 235.62413, 0.00243704999, -9.70730483e-08, 0.99999702, -7.09934866e-08, 1, 9.72463496e-08, -0.99999702, -7.12302679e-08, 0.00243704999)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1058.62097, 15.1323872, 477.81131, -0.960836053, -2.26627055e-08, 0.277117431, -3.30093748e-08, 1, -3.26716751e-08, -0.277117431, -4.05395966e-08, -0.960836053)
         end)
         
         
