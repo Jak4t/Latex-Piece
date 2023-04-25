@@ -672,12 +672,12 @@ if game.PlaceId == 12860567360 then
         
         
         Function_3:Button("Starter Island", function()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-17.8772469, 10.4073277, -682.160034, -0.999869347, 6.07082296e-09, -0.0161655191, 6.02664141e-09, 1, 2.78179213e-09, 0.0161655191, 2.6840048e-09, -0.999869347)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(20.4405499, 30.8134136, -499.025879, -0.675779164, -9.86224435e-08, 0.737104118, -5.84907909e-08, 1, 8.01726401e-08, -0.737104118, 1.10651959e-08, -0.675779164)
         end)
         
         
         Function_3:Button("Jungle Island", function()
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(672.556641, 7.18790483, 625.724304, 0.0156977009, 4.08574596e-09, -0.999876797, 1.18003562e-08, 1, 4.2715107e-09, 0.999876797, -1.18659553e-08, 0.0156977009)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(672.454041, 16.2276154, 621.443054, 0.6572932, -3.89418204e-08, 0.75363493, -3.59735175e-08, 1, 8.30467997e-08, -0.75363493, -8.16969958e-08, 0.6572932)
         end)
         
         
