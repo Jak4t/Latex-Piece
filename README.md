@@ -696,6 +696,16 @@ if game.PlaceId == 12860567360 then
         end)
         
         
+        Function_3:Button("Songkran Island", function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-286.932312, 9.71764469, 364.651154, -0.998904943, -4.87499019e-09, 0.0467857383, -2.50359999e-09, 1, 5.07447702e-08, -0.0467857383, 5.05720692e-08, -0.998904943)
+        end) 
+        
+        
+        Function_3:Button("Sand Island", function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1088.64526, 17.8685951, 1685.20276, 0.0112204188, -2.54215848e-09, 0.999937057, -2.62054689e-09, 1, 2.57172417e-09, -0.999937057, -2.64923772e-09, 0.0112204188)
+        end) 
+        
+        
         Function_4:Button("Mini Gun Shop", function()
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Workspace").Shop["Mini Gun Shop"].EPart.CFrame
             fireproximityprompt(game:GetService("Workspace").Shop["Mini Gun Shop"].EPart.ProximityPrompt)
