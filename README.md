@@ -484,9 +484,7 @@ if game.PlaceId == 12860567360 then
                 Monster = "Sand Bandit"
             elseif Levels == 851 or Levels <= 901 then
                 Monster = "Sang"
-            elseif Levels == 902 or Levels <= 950 then
-                Monster = "Sand Boss"
-            elseif Levels == 951 or Levels <= 1001 then
+            elseif Levels == 902 or Levels <= 1001 then
                 Monster = "Sand Man"
             end
         end
@@ -543,7 +541,7 @@ if game.PlaceId == 12860567360 then
         Function_1:Label("Auto Fram Select")
         
         
-        Function_1:Dropdown("Auto Fram Select", {"Bad People","Blue People","Tree Man","Leaf Man","Snow People","People love Plar UwU","Tree Boss","Leaf Boss","YeTood","Leaf Noob","Sand Stone"," Sand Boss"}, function(Pick)
+        Function_1:Dropdown("Auto Fram Select", {"Bad People","Blue People","Tree Man","Leaf Man","Snow People","People love Plar UwU","Tree Boss","Leaf Boss","YeTood","Leaf Noob","Sand Stone"," Sand Boss","Monkey Caramel ZaZa"}, function(Pick)
             _G.Monster = Pick
         end)
         
